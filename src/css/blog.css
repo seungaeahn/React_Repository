@@ -1,0 +1,36 @@
+
+
+.App {
+    text-align: center;
+  }
+  
+  h2 {
+    color: #cf1313;
+  }
+  
+  input {
+    margin-right: 8px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    color: #cf1313;
+    margin: 8px 0;
+    padding: 8px;
+    border: 1px solid #813636;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button {
+    background-color: #9e2e66;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+  }
