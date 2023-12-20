@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Blog from './js/Blog';
+import PracticeTwo from './js/PracticeTwo';
+import './css/blog.css';
 
 const About = () => <div>소개페이지</div>
 
@@ -23,12 +25,16 @@ const App = () => {
             <li>
               <Link to="/about">소개</Link>
             </li>
+            <li>
+              <Link to="/todoList">할일목록</Link>
+            </li>
           </ul>
         </nav>
         <hr />
         <Routes>
           <Route path='/' element={<Blog/>} />
           <Route path='/about' element={<About/>}/>
+          <Route path='/todoList' element={<PracticeTwo/>}/>
         </Routes>
       </div>
     </Router>
