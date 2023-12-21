@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Board from './js/Board';
+import HelloWorld from './js/JSXExam';
+import TagExam from './js/TagExam';
 // import Count from './js/Count';
 // import ToggleButton from './js/ToggleButton';
 // import IndexExample from './js/IndexExample';
@@ -18,7 +21,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
     {/*<Count />*/}
     {/*<ToggleButton/>*/}
     {/*<ToggleButton/>*/}
@@ -31,6 +34,9 @@ root.render(
     {/* <ChildComponent/> */}
     {/* <ParentComponent/> */}
     {/* <Blog/> */}
+    {/* <Board /> */}
+    {/* <HelloWorld /> */}
+    <TagExam />
   </React.StrictMode>
 );
 
